@@ -1,21 +1,87 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# App-salary
 
-# Run and deploy your AI Studio app
+A Kotlin-based salary management app for tracking employee salaries, pay breakdowns, and payroll-related records.
 
-This contains everything you need to run your app locally.
+## Overview
 
-View your app in AI Studio: https://ai.studio/apps/cae52507-8a17-4a83-a9f0-eeba3738f347
+This project is built primarily in Kotlin and includes a lightweight HTML front-end. It is designed to help users manage salary information efficiently, including monthly pay summaries, deductions, bonuses, and net salary calculations.
 
-## Run Locally
+## Features
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+- Employee salary tracking
+- Monthly and overall salary overview
+- Add/update/remove employee information
+- Track deductions, allowances, and bonuses
+- Calculate net salary automatically
+- Clean and simple user interface
+- Easy to extend for payroll automation
 
+## Tech Stack
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+- Kotlin
+- HTML
+- Android app development workflow
+
+## Prerequisites
+
+Before running this project, make sure you have:
+
+- Android Studio installed
+- JDK 8 or newer
+- Kotlin support enabled
+- An emulator or physical Android device
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/ydvaditya20-creator/App-salary.git
+```
+
+2. Open the project in Android Studio.
+
+3. Sync the Gradle files.
+
+4. Run the app on an emulator or device.
+
+## Usage
+
+1. Open the app.
+2. Add employee details.
+3. Enter base salary and any allowances/deductions.
+4. Review monthly salary reports and totals.
+5. Save and update records as needed.
+
+## Project Structure
+
+```text
+App-salary/
+├── app/
+│   └── src/
+├── build.gradle
+├── settings.gradle
+├── README.md
+└── assets/
+```
+
+## Future Improvements
+
+- Database integration for persistent storage
+- Authentication and user roles
+- PDF payslip generation
+- Salary report export
+- Admin and employee dashboards
+- Better analytics and charts
+
+## Contributing
+
+Contributions are welcome. You can fork the repository, create a feature branch, and submit a pull request with your improvements.
+
+## License
+
+This project does not currently specify a license. Add one if you plan to distribute it publicly.
+
+## Contact
+
+For questions or collaboration, please use the project repository on GitHub.
